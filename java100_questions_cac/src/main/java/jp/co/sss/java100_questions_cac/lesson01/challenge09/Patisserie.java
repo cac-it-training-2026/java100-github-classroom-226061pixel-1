@@ -62,16 +62,15 @@ public class Patisserie {
 		System.out.println("ピスタージュ\\320・・・残り" + c + "個\n");
 
 		System.out.println("それぞれ何個ずつ買いますか？(最大30個まで)");
-
-		System.out.println("シトロン    >");
-		System.out.println("ショコラ　　>");
-		System.out.println("ピスタージュ>");
-
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+		System.out.println("シトロン    >");
 		String str1 = reader.readLine();
+		System.out.println("ショコラ　　>");
 		String str2 = reader.readLine();
+		System.out.println("ピスタージュ>");
 		String str3 = reader.readLine();
+
 		///doubleで読み込み
 		double num1 = Double.parseDouble(str1);
 		double num2 = Double.parseDouble(str2);
